@@ -185,7 +185,7 @@ if __name__ == "__main__":
     ip1.setIP("192.168.100.1")
     ip1.grid(row=0, column=1, padx=5,pady=5)
 
-    label2=tk.Label(root,text="Invalidate IP Address(192.304.100.288):")
+    label2=tk.Label(root,text="Invalid IP Address(192.304.100.288):")
     label2.grid(row=1,column=0,sticky=E)
     ip2 = IPEntry(root)
     ip2.setIP("192.304.100.288")
@@ -210,8 +210,4 @@ if __name__ == "__main__":
 
         
     root.mainloop()
-    
-    
-    
-
 
